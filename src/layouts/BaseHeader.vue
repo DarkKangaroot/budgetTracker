@@ -23,6 +23,7 @@ const onClickMenu = () => emits("onClickMenu")
         <el-menu-item index="0" route="/">
             <h3>Budget Tracker</h3>
         </el-menu-item>
+        <el-menu-item index="1" route="/Repetitive">Repetitive</el-menu-item>
         <div class="flex-grow" />
         <el-menu-item h="full" @click="toggleDark()">
             <Icon class="cursor-pointer font-black" :icon="`${isDark ? `ic:baseline-nights-stay` : `ic:baseline-wb-sunny`}`" width="18" ></Icon>
